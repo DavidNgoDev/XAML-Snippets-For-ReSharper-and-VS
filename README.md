@@ -32,9 +32,15 @@
 
 <p>
 	
-| Function                                                       | Shortcut |
-|----------------------------------------------------------------|:--------:|
-| Bindable Boiler Code For Custom Control With Content Template  |    bct   |
+| Function                                                                                 | Shortcut |
+|------------------------------------------------------------------------------------------|:--------:|
+| Creates a basic bindable control template.                                               |    bc    |
+| Creates a basic global control template.                                                 |    gc    |
+| Creates a bindable control template.                                                     |    bct   |
+| Creates a global control template.                                                       |    gct   |
+| Creates a setter property                                                                |    sp    |
+| Creates a control template trigger with one trigger instance.                            |    ctt   |
+| Creates a singular trigger with one setter property for use is control template triggers |    ts    |
 
 </p>
 
