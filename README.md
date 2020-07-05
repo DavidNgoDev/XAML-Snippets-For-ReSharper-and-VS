@@ -10,12 +10,18 @@
 
 <h3>Useful Boiler Code Snipets<h3>
 
+<p>
+	
 | Function                                                       | Shortcut |
 |----------------------------------------------------------------|:--------:|
 | Bindable Boiler Code For Custom Control With Content Template  |    bct   |
 
+</p>
+
 <h3>Cheet Sheet<h3>
-  
+
+<p>
+
 | Function                  | Shortcut |      ReSharper     | Visual Studio | Visual Code |
 |---------------------------|:--------:|:------------------:|:-------------:|:-----------:|
 | Square Button With Image  |    sb    | :heavy_check_mark: |      :x:      |     :x:     |
@@ -24,3 +30,4 @@
 | Username Box With Icon    |    ui    | :heavy_check_mark: |      :x:      |     :x:     |
 | Password Box With Icon    |    pi    | :heavy_check_mark: |      :x:      |     :x:     |
   
+</p>
