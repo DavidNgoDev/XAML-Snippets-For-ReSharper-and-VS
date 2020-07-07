@@ -1,65 +1,69 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Shortcut/@EntryValue">ts</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Description/@EntryValue">Creates a singular trigger with one setter property for use is control template triggers</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Text/@EntryValue">    &lt;Trigger Property="$TriggerProperty$" Value="$PropertyValue$"&gt;&#xD;
-        &lt;Setter Property="$Property$" Value="$Value$" /&gt;&#xD;
-    &lt;/Trigger&gt;</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/IsBlessed/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=TriggerProperty/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=TriggerProperty/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=PropertyValue/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=PropertyValue/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Value/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Value/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Property/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Property/Order/@EntryValue">3</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Shortcut/@EntryValue">sp</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Description/@EntryValue">Creates a setter property</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Text/@EntryValue">&lt;Setter Property="$Property$" Value="$Value$" /&gt;</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/IsBlessed/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Property/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Property/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Value/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Value/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Shortcut/@EntryValue">gct</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Description/@EntryValue">Creates a gloval control template.</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Text/@EntryValue">    &lt;Style TargetType="{x:Type $Control$}"&gt;&#xD;
-        &lt;Setter Property="Template"&gt;&#xD;
-            &lt;Setter.Value&gt;&#xD;
-                &lt;ControlTemplate TargetType="{x:Type $Control$}"&gt;&#xD;
-&#xD;
-                &lt;/ControlTemplate&gt;&#xD;
-            &lt;/Setter.Value&gt;&#xD;
-        &lt;/Setter&gt;&#xD;
-    &lt;/Style&gt;&#xD;
-</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/IsBlessed/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Field/=Control/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Field/=Control/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Shortcut/@EntryValue">acp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Description/@EntryValue">Creates an automatic column property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Text/@EntryValue">&lt;ColumnDefinition Width="auto"/&gt;$END$    </s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1745144772D31641A4102D8EF5F1AE22/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Shortcut/@EntryValue">arp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Description/@EntryValue">Creates an automatic row property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Text/@EntryValue">&lt;RowDefinition Height="auto"/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AC40A639B68BF47B1FCEEEB72F4D4DD/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Shortcut/@EntryValue">bc</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Description/@EntryValue">Creates a basic bindable control template.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Text/@EntryValue">&lt;Style x:Key="$Name$" TargetType="{x:Type $Control$}"&gt;&#xD;
+	$END$&#xD;
+&lt;/Style&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Categories/=XAML/@EntryIndexedValue">XAML</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Control/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Shortcut/@EntryValue">bct</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Description/@EntryValue">Creates a bindable control template.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Text/@EntryValue">	&lt;Style x:Key="$Name$" TargetType="{x:Type $Control$}"&gt;&#xD;
+		&lt;Setter Property="Template"&gt;&#xD;
+			&lt;Setter.Value&gt;&#xD;
+				&lt;ControlTemplate TargetType="{x:Type $Control$}"&gt;&#xD;
+					$END$&#xD;
+				&lt;/ControlTemplate&gt;&#xD;
+			&lt;/Setter.Value&gt;&#xD;
+		&lt;/Setter&gt;&#xD;
+	&lt;/Style&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Control/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Shortcut/@EntryValue">ctt</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Description/@EntryValue">Creates a control template trigger with one trigger instance.</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Text/@EntryValue">    &lt;ControlTemplate.Triggers&gt;&#xD;
         &lt;Trigger Property="$TriggerProperty$" Value="$PropertyValue$"&gt;&#xD;
-            &lt;Setter Property="$Property$" Value="$Value$" /&gt;&#xD;
+            &lt;Setter Property="$Property$" Value="$Value$" /&gt;$END$&#xD;
         &lt;/Trigger&gt;&#xD;
     &lt;/ControlTemplate.Triggers&gt;</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/IsBlessed/@EntryValue">True</s:Boolean>
@@ -76,42 +80,195 @@
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Field/=Property/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Field/=Value/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8927101D01A90D469F33D5F0C557F07D/Field/=Value/Order/@EntryValue">3</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Shortcut/@EntryValue">bct</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Description/@EntryValue">Creates a bindable control template.</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Text/@EntryValue">    &lt;Style x:Key="$Name$" TargetType="{x:Type $Control$}"&gt;&#xD;
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Shortcut/@EntryValue">dcp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Description/@EntryValue">Creates a defined column property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Text/@EntryValue">&lt;ColumnDefinition Width="$Value$"/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Field/=Value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBFD5AD42ECC514096E653871C005C8C/Field/=Value/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Shortcut/@EntryValue">drp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Description/@EntryValue">Creates a defined row property</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Text/@EntryValue">&lt;RowDefinition Height="$Value$"/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Field/=Value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F041A683459BD41A8DA3CB8A9EC7373/Field/=Value/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Shortcut/@EntryValue">ecp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Description/@EntryValue">Creates an empty column property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Text/@EntryValue"> &lt;ColumnDefinition/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A7ED18FB061F354FA91D3013DA742081/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Shortcut/@EntryValue">erp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Description/@EntryValue">Creates an empty row property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Text/@EntryValue">&lt;RowDefinition/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=00A14115EAA9F540BAB8D7619C36DEE0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Shortcut/@EntryValue">gc</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Description/@EntryValue">Creates a basic global control template.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Text/@EntryValue">&lt;Style TargetType="{x:Type $Control$}"&gt;&#xD;
+	$END$&#xD;
+&lt;/Style&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Categories/=XAML/@EntryIndexedValue">XAML</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Field/=Control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=711A2A3E602C1B45BAD8C100856DC660/Field/=Control/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Shortcut/@EntryValue">gct</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Description/@EntryValue">Creates a global control template.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Text/@EntryValue">    &lt;Style TargetType="{x:Type $Control$}"&gt;&#xD;
         &lt;Setter Property="Template"&gt;&#xD;
             &lt;Setter.Value&gt;&#xD;
                 &lt;ControlTemplate TargetType="{x:Type $Control$}"&gt;&#xD;
-&#xD;
-				&lt;/ControlTemplate&gt;&#xD;
+					$END$&#xD;
+                &lt;/ControlTemplate&gt;&#xD;
             &lt;/Setter.Value&gt;&#xD;
         &lt;/Setter&gt;&#xD;
-    &lt;/Style&gt;</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/IsBlessed/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Name/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Name/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Control/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ABF39C569C0C994BB1984CC627730B61/Field/=Control/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Shortcut/@EntryValue">bc</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Description/@EntryValue">Creates a basic bindable control template.</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Text/@EntryValue">	&lt;Style x:Key="$Name$" TargetType="{x:Type $Control$}"&gt;&#xD;
+    &lt;/Style&gt;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Field/=Control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEEC7A4EB7A49A48B0E5395E036E2038/Field/=Control/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Shortcut/@EntryValue">gr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Description/@EntryValue">Creates an empty grid.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Text/@EntryValue">&lt;Grid&gt;&#xD;
+	$END$&#xD;
+&lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=615048218B655F4096C968D4D755DD5B/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Shortcut/@EntryValue">gwc</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Description/@EntryValue">Creates a grid with a column.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Text/@EntryValue">    &lt;Grid&gt;&#xD;
+        &lt;Grid.ColumnDefinitions&gt;&#xD;
+			$END$&#xD;
+        &lt;/Grid.ColumnDefinitions&gt;&#xD;
+    &lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D30E920A2671D745A61A95FC3E60B415/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Shortcut/@EntryValue">gwr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Description/@EntryValue">Creates a grid with a row.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Text/@EntryValue">    &lt;Grid&gt;&#xD;
+        &lt;Grid.RowDefinitions&gt;&#xD;
+            $END$&#xD;
+        &lt;/Grid.RowDefinitions&gt;&#xD;
+    &lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06EAB43F84B1424A889B4B69B6DDE197/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Shortcut/@EntryValue">gwrac</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Description/@EntryValue">Creates a grid with a row and column.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Text/@EntryValue">    &lt;Grid&gt;&#xD;
+        &lt;Grid.RowDefinitions&gt;&#xD;
+            $END$&#xD;
+        &lt;/Grid.RowDefinitions&gt;&#xD;
 &#xD;
-	&lt;/Style&gt;</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/IsBlessed/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Categories/=XAML/@EntryIndexedValue">XAML</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Name/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Name/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Control/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B76625718FEFE64FA4232854AB95EFAC/Field/=Control/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
+        &lt;Grid.ColumnDefinitions&gt;&#xD;
+&#xD;
+        &lt;/Grid.ColumnDefinitions&gt;&#xD;
+    &lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=972D44746B67E74E98F9AFEBDEFF9A9C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Shortcut/@EntryValue">scp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Description/@EntryValue">Creates a star column property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Text/@EntryValue">&lt;ColumnDefinition Width="*"/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E63853A35120F04E8745E037B0C6F694/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Shortcut/@EntryValue">sp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Description/@EntryValue">Creates a setter property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Text/@EntryValue">&lt;Setter Property="$Property$" Value="$Value$" /&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Property/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFD9AF2429FF9449A8C1908BAA3644BB/Field/=Value/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Shortcut/@EntryValue">srp</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Description/@EntryValue">Creates a star row property.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Text/@EntryValue">&lt;RowDefinition Height="*"/&gt;$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69954E8BE9A400439C09506EADFBFF5F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Shortcut/@EntryValue">ts</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Description/@EntryValue">Creates a singular trigger with one setter property for use is control template triggers.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Text/@EntryValue">    &lt;Trigger Property="$TriggerProperty$" Value="$PropertyValue$"&gt;&#xD;
+        &lt;Setter Property="$Property$" Value="$Value$" /&gt;$END$&#xD;
+    &lt;/Trigger&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=TriggerProperty/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=TriggerProperty/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=PropertyValue/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=PropertyValue/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Value/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE80EBC2777F5849833E635F191F591E/Field/=Property/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
