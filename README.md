@@ -34,13 +34,22 @@
 	
 | Function                                                                                 | Shortcut |
 |------------------------------------------------------------------------------------------|:--------:|
-| Creates a basic bindable control template.                                               |    bc    |
-| Creates a basic global control template.                                                 |    gc    |
-| Creates a bindable control template.                                                     |    bct   |
-| Creates a global control template.                                                       |    gct   |
+| Creates a basic bindable control template                                                |    bc    |
+| Creates a basic global control template                                                  |    gc    |
+| Creates a bindable control template                                                      |    bct   |
+| Creates a global control template                                                        |    gct   |
 | Creates a setter property                                                                |    sp    |
-| Creates a control template trigger with one trigger instance.                            |    ctt   |
+| Creates a control template trigger with one trigger instance                             |    ctt   |
 | Creates a singular trigger with one setter property for use is control template triggers |    ts    |
+| Creates an empty grid                                                                    |    gr    |
+| Creates a grid with a row and column                                                     |   gwrac  |
+| Creates a grid with a row                                                                |    gwr   |
+| Creates a grid with a column                                                             |    gwc   |
+| Creates a empty column property                                                          |    ecp   |
+| Creates a defined column property                                                        |    dcp   |
+| Creates an automatic column property                                                     |    acp   |
+| Creates a star column property                                                           |    scp   |
+| Creates a empty row property                                                             |    erp   |
 
 </p>
 
